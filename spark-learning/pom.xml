@@ -9,7 +9,7 @@
     <artifactId>sarath.learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-   <name>spark-learning</name>
+  <name>spark-learning</name>
   <packaging>jar</packaging> 
   <groupId>sarath.learn.spark</groupId>
   <artifactId>spark-learning</artifactId>
@@ -17,8 +17,7 @@
  
 
     <dependencies>
-
-        <!-- Import Spark -->
+		<!-- Import Spark -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>

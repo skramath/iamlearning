@@ -12,7 +12,7 @@
     <artifactId>sarath.learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>mylearning</name>
+    <name>iamlearning</name>
     <description>This is my learning platforms</description>
 
     <properties>
@@ -22,8 +22,7 @@
     <modules>
       <module>spark-learning</module>
       <module>datastructure-algorithms-learning</module>
-	  <module>java8-learning</module>
-    </modules>
+	</modules>
 
     <dependencies>
 
