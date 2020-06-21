@@ -17,11 +17,13 @@
 
     <properties>
       <java.version>1.8</java.version>
+	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <modules>
       <module>spark-learning</module>
       <module>datastructure-algorithms-learning</module>
+	  <module>java8-learning</module>
 	</modules>
 
     <dependencies>
