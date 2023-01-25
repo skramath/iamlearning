@@ -1,4 +1,4 @@
-package com.java;
+package com.lambdas;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -28,8 +28,8 @@ public class ExampleWithMethodReference {
         System.out.println(supplier.get());
 
         //Reference to instance method from an instance
-        ExampleWithMethodReference ref1 = new ExampleWithMethodReference();
-        Function<Integer, Integer> function = ref1::print;
+        ExampleWithMethodReference ref = new ExampleWithMethodReference();
+        Function<Integer, Integer> function = ref::print;
         System.out.println(function.apply(100));
 
         //Reference to constructor
